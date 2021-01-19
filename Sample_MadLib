@@ -1,4 +1,4 @@
-
+# First Game
 
 def mad_lib():
     adjective_1 = input("Adjective 1: ")
@@ -24,3 +24,43 @@ def mad_lib():
 
     print(mad_lib_print)
     
+# Second One
+
+
+
+def mad_lib():
+    girl_name = input("Girl's Name: ")
+    noun_1 = input("Noun 1:")
+    noun_2 = input("Noun 2:")
+    noun_3 = input("Noun 3:")
+    verb_1 = input("Verb 1: ")
+    verb_2 = input("Verb 2: ")
+    past_verb = input("Past Verb : ")
+    adjective_1 = input("Adjective 1: ")
+    adjective_2 = input("Adjective 2: ")
+    adverb_1 = input("Adverb :")
+
+    print("\n\tThe Story After GUESSING: ")
+    print("_____________________________________________________________")
+    mad_lib_print = f"Once a boy named jack liked a {noun_1}, next door, named {girl_name}. \n" \
+                    f"He wants to {verb_1} his feeling to her but never had guts to do so. \n" \
+                    f"One day, {girl_name}’s house was on fire and she was trapped inside. \n" \
+                    f"No {noun_2} could go in because the fire was too {adjective_1}.\n" \
+                    f"Jack got {verb_2} in one of the fire suits and ran into the house. \n" \
+                    f"When he reached the {adverb_1}, the steps fell off behind him. \n" \
+                    f"He got inside the room and sealed the door. \n" \
+                    f"He held her tight, kissed her, hugged her, \n" \
+                    f"then {adjective_2} that he loved her since the first day, she {past_verb} to her neighborhood.\n" \
+                    f"She asked her but why are you crying.\n" \
+                    f"I Cut The {noun_3}. :)))))\n"
+
+    print(mad_lib_print)
+
+
+# Main Program
+from Sample_MadLib import aboutLove, aboutDeath
+import random
+
+if __name__ == "__main__":
+    module = random.choice([aboutLove, aboutDeath])
+    module.mad_lib()
