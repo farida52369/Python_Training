@@ -1,5 +1,4 @@
 # First Game
-
 def mad_lib():
     adjective_1 = input("Adjective 1: ")
     adjective_2 = input("Adjective 2: ")
@@ -24,10 +23,8 @@ def mad_lib():
 
     print(mad_lib_print)
     
+  
 # Second One
-
-
-
 def mad_lib():
     girl_name = input("Girl's Name: ")
     noun_1 = input("Noun 1:")
