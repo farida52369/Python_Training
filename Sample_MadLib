@@ -1,1 +1,26 @@
 
+
+def mad_lib():
+    adjective_1 = input("Adjective 1: ")
+    adjective_2 = input("Adjective 2: ")
+    adjective_3 = input("Adjective 3: ")
+    verb_1 = input("Verb 1:")
+    verb_2 = input("Verb 2:")
+    noun_1 = input("Noun 1: ")
+    noun_2 = input("Noun 2: ")
+    noun_3 = input("Noun 3: ")
+    exclamation = input("Exclamation: ")
+
+    print("\n\tThe Story After guessing:")
+    mad_lib_print = f"These are some of the most heart touching and {adjective_1} stories about {noun_1}" \
+                    f"I have ever read.\n" \
+                    f"I love reading short love stories but these made me {verb_1}.\n" \
+                    f"So, you do have a {noun_2} on someone, well, who doesn’t have.\n" \
+                    f"Everyone has a crush, someone, most beautiful and {adjective_2} than anyone can be.\n" \
+                    f"But it {verb_2} when they are not around.\n" \
+                    f"and I must confess, that you are not the only one feeling this pain.\n" \
+                    f"Here are some of the Short sad {noun_3} about love, that I feel {adjective_3} to.\n" \
+                    f"{exclamation}, I have collected them for you and some others just like.\n"
+
+    print(mad_lib_print)
+    
