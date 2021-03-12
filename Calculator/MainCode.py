@@ -1,3 +1,8 @@
+# ############## Creator: Fareeda Ragab
+# Calculator and Timer
+# Using Tkinter, math and time module
+
+
 from tkinter import *
 import math
 from time import strftime
