@@ -61,6 +61,8 @@ def equal_press():
         if "log(" in expression_after_mod:
             log = "math.log("
             expression_after_mod = expression_after_mod.replace("log(", log)
+        if "π" in expression_after_mod:
+            expression_after_mod = expression_after_mod.replace("π", "math.pi")
         result = str(f"{eval(expression_after_mod):.6f}")
     except ZeroDivisionError:
         result = "Division By Zero Not Allowed!"
@@ -372,7 +374,7 @@ inverseLog_but = Button(window,
 
 # Entry For The Display
 equation = StringVar()
-expression_field = Entry(window, textvariable=equation)
+expression_field = Entry(window, textvariable=equation, font=("arial", 17))
 expression_field.grid(row=0, column=0, ipadx=66, ipady=8)
 
 
