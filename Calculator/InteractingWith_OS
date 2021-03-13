@@ -1,0 +1,16 @@
+$which python3
+$sudo vim file.py   ----- #!(Output from which python3)
+$sudo chmod +x file.py   ----- ./file.py
+
+$gedit ~/.bashrc
+ ---- alias NameForApp="pathToTheFile.py-AbsolutePath"
+$NameForApp
+
+[Desktop Entry]
+Name = Calculator_2
+Version = 1.0
+Exec = /home/fareeda/PycharmProjects/Calculator\:\)/MainCode.py
+# Icon = /home/fareeda/PycharmProjects/Calculator\:\)/icon.ico
+Type = Application
+ 
+
