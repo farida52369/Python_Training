@@ -6,6 +6,7 @@ $gedit ~/.bashrc
  ---- alias NameForApp="pathToTheFile.py-AbsolutePath"
 $NameForApp
 
+# Write that in a FILE(launch.desktop) -- Then allow its launching
 [Desktop Entry]
 Name = Calculator_2
 Version = 1.0
