@@ -1,5 +1,10 @@
 # ################### Self Control -- To work without distructions
 # ################### Creator: Fareeda Ragab
+# WATCH OUT: 
+# To allow accessing the  __ /etc/hosts __ when running the code 
+# $sudo python3 MainCode.py
+# As I'm using VIM,
+# :!sudo python3 MainCode.py
 
 # The modules we need
 import time
